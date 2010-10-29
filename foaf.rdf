@@ -1,0 +1,31 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+    <foaf:maker rdf:resource="#me"/>
+    <foaf:primaryTopic rdf:resource="#me"/>
+    <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+    <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Simon Cockell</foaf:name>
+<foaf:title>Dr</foaf:title>
+<foaf:givenname>Simon</foaf:givenname>
+<foaf:family_name>Cockell</foaf:family_name>
+<foaf:mbox_sha1sum>589df0d00bcdc48bc65aa7b40cb1c9719111fb55</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="http://fuzzierlogic.com"/>
+<foaf:depiction rdf:resource="http://en.gravatar.com/userimage/5055045/513d1b0aec6e1c0fd73d7902a07d0824.jpg"/>
+<foaf:workplaceHomepage rdf:resource="http://bsu.ncl.ac.uk/"/>
+<foaf:workInfoHomepage rdf:resource="http://bsu.ncl.ac.uk/support/staff/simon-cockell/"/>
+<foaf:schoolHomepage rdf:resource="http://nottingham.ac.uk/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Daniel Swan</foaf:name>
+<foaf:mbox_sha1sum>428c54fdaf5e4efda51d198b75d3cc3e458eb3fc</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Phillip Lord</foaf:name>
+<foaf:mbox_sha1sum>ee9943fd0d09431dfd0d2c2b55c21d034d38dd3e</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
